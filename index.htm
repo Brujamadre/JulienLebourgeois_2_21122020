@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Reservia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
 </head>
 <body>
 
@@ -30,20 +31,24 @@
 
     <main>
 
-        <section id="recherche">
+        <section>
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <h5>En plein centre ville ou en pleine nature</h5>
-            <div>
-                <input type="text">
+            <div id="recherche">
+                <i id="placeicone" class="fas fa-map-marker-alt"></i>
+                <input type="text" value="Marseille, France">
                 <button>Recherche</button>
             </div>
-            <div>
-                <h3>Filtres</h3>
-                <span>Economique</span>
-                <span>Familial</span>
-                <span>Romantique</span>
-                <span>Animaux autorisés</span>
+            <div id="filtres">
+                <p>Filtres</p>
+                <span><i class="fas fa-money-bill-wave"></i>Economique</span>
+                <span><i class="fas fa-child"></i>Familial</span>
+                <span><i class="fas fa-heart"></i>Romantique</span>
+                <span><i class="fas fa-dog"></i>Animaux autorisés</span>                
             </div>
+
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        
         </section>
 
         <section id="hebergement"></section>
