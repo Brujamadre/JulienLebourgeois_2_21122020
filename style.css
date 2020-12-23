@@ -98,12 +98,15 @@ input{
 }
 
 #recherchebutton{
+    font-weight: bolder;
     width: 120px;
     background-color: #0065FC;
     color: white;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border: none;
+    outline: none;
+    cursor: pointer;
 }
 
 #filtres{
@@ -117,9 +120,9 @@ input{
 .filtre{
     display: flex;
     align-items: center;
-    justify-content: center;
     margin: 0px 20px;
     border: lightgray 1px solid;
+    border-left: none;
     padding-right: 10px;
     border-radius: 25px;
     cursor: pointer;
@@ -131,12 +134,16 @@ input{
 }
 
 .filtre .icone{
+    display: flex;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    align-items: center;
     background-color: #DEEBFF;
     padding: 10px 15px;
     margin-right: 7px;
+    margin-left: none;
     border-radius: 50px 50px;
-    align-items: center;
-    justify-content: center;
     color: #0065FC;
 }
 
