@@ -1,4 +1,4 @@
-# Reservia.
+# Reservia
 
 Link : https://julien-lebourgeois.github.io/Reservia.io/
 
